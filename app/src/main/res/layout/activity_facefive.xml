@@ -6,4 +6,47 @@
     android:layout_height="match_parent"
     tools:context=".facefive">
 
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="395dp"
+        android:layout_height="288dp"
+        android:layout_marginBottom="169dp"
+        android:src="@drawable/four"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.703"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnPrevious5"
+        android:layout_width="110dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        android:text="Previous"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="297dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="56dp"
+        android:text="Male shoes available at all size and pocket friendly"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline7" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
